@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 2em;
+  padding: 0.5em 0;
+  justify-content: center;
+}
+.header__logo img {
+  width: 24px;
+}
+.header__icon img {
+  height: 14px;
+  padding: 0.5em 1.5em;
+}
+nav {
+  margin-left: 2em;
+}
+ul{
+  all: unset;
+}
+li {
+  display: inline-block;
+  font-size: var(--font-size-small);
+  padding: 0.5em 1.5em;
+}
