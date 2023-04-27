@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 2em;
   padding: 0.5em 0;
-  margin: 0 10%;
+  margin: 0 16vw;
   justify-content: space-between;
   align-items: center;
 }
@@ -18,6 +18,7 @@
   padding: 1em 0;
   text-decoration: none;
   font-size: var(--font-size-small);
+  font-weight: normal;
   color: black;
 }
 .header__icon {
@@ -35,11 +36,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em 2em;
+  padding: 1em 16vw;
   background-color: white;
 }
 .add p{
   font-size: var(--font-size-small);
+  font-weight: 400;
 }
 .add a {
   color: var(--color-buttonLink);
@@ -60,10 +62,13 @@ sup {
     visibility:hidden;
   }
   .header__icon img {
-    height: 16px;
+    height: 18px;
   }
   #menu__hidden {
     display: block;
+  }
+  .add {
+    padding: 1em 1.5em;
   }
   
 }
